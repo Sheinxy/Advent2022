@@ -1,7 +1,6 @@
 module Main where
 
 import Data.Char
-import Data.List
 
 parseInput :: String -> [(Int, Int)]
 parseInput = map (\s -> (ord (s !! 0) - ord 'A', ord (s !! 2) - ord 'X')) . lines
