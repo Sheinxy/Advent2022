@@ -6,7 +6,7 @@ Watch me code in Haskell for 25 days straight
 - [x] Day 1
 - [x] Day 2
 - [x] Day 3
-- [ ] Day 4
+- [x] Day 4
 - [ ] Day 5
 - [ ] Day 6
 - [ ] Day 7
@@ -44,3 +44,6 @@ and notice that there is a cycle to the possible scores.
 
 ### Day 3:
 Weirdly enough, I really liked this one. I am quite proud of my solution :D
+
+### Day 4:
+It is way too early for me to be awake, my solution is quite silly but it works.
