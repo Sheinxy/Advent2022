@@ -57,7 +57,7 @@ to how the action I perform is related to the action my opponent performs. That 
 in part1 things likes "If I play rock and my opponent plays scissors, then I win so I get 6 points",
 and for part2 "If I want to lose and my opponent plays rock then I play scissors and get 3 points".
 
-Now the weird things is "If this list is supposed to represent some kind of relation between
+Now the weird thing is "If this list is supposed to represent some kind of relation between
 these two actions, then why is it a list of three values and not a matrix of 3x3?"
 
 Glad you asked! ❤️  It all becomes clearer if we create said matrices:
