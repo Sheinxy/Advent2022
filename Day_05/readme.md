@@ -48,11 +48,14 @@ parseInput = parseLines . span (not . null) . lines
 ```
 This parses the input, returning a list of stacks and a list of moves.
 
+```hs
+parseInput = parseLines . span (not . null) . lines
+```
 The first thing is splitting the input into lines, and then splitting these line into two parts.
 These two parts being separated by and empty line, the first part is the elements spanning non-empty lines
 (basically, all the first elements before the first empty line), and the second part is everything else after.
 
-Then, once we've got these two parts, corresponding to the stakcs and the actions, we need to parse them.
+Then, once we've got these two parts, corresponding to the stacks and the actions, we need to parse them.
 
 Parsing the actions is pretty easy
 ```hs
