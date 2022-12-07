@@ -9,7 +9,7 @@ Watch me code in Haskell for 25 days straight
 - [x] Day 4
 - [x] Day 5
 - [x] Day 6
-- [ ] Day 7
+- [x] Day 7
 - [ ] Day 8
 - [ ] Day 9
 - [ ] Day 10
@@ -53,3 +53,9 @@ The hardest part about this one was the parsing, and even that wasn't too hard
 
 ### Day 6:
 Easiest one.
+
+### Day 7:
+This one was a bit harder, but once the parsing is done then it's not that hard.
+Is it weird that part 2 was easier than part 1 for me ?
+Anyway, tree traversals go brrrrrr (although I'd hoped to make my code clean
+which isn't the case right now :,()
