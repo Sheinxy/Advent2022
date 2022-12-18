@@ -12,7 +12,7 @@ Watch me code in Haskell for 25 days straight
 |  [Day 05](./Day_05)	|    ✅   	|    ✅   	|  [Day 14](./Day_14)	|    ✅   	|    ✅   	|  [Day 23](./Day_23)	|        	|        	|
 |  [Day 06](./Day_06)	|    ✅   	|    ✅   	|  [Day 15](./Day_15)	|    ✅   	|    ✅   	|  [Day 24](./Day_24)	|        	|        	|
 |  [Day 07](./Day_07)	|    ✅   	|    ✅   	|  [Day 16](./Day_16)	|    ✅   	|    ✅   	|  [Day 25](./Day_25)	|        	|        	|
-|  [Day 08](./Day_08)	|    ✅   	|    ✅   	|  [Day 17](./Day_17)	|        	|        	|     	|        	|        	|
+|  [Day 08](./Day_08)	|    ✅   	|    ✅   	|  [Day 17](./Day_17)	|    ✅   	|    ✅   	|     	|        	|        	|
 |  [Day 09](./Day_09)	|    ✅   	|    ✅   	|  [Day 18](./Day_18)	|        	|        	|     	|        	|        	|
 
 ---
@@ -75,3 +75,6 @@ And there I was, thinking my day 14 was unoptimised. 15 seconds to run part 2, b
 
 ### [Day 16](./Day_16):
 Memoisation goes brrrrrrr (help me, I'm losing my mind, this one was way harder than any other day before)
+
+### [Day  17](./Day_17):
+Ok, this one was both really enjoyable but also somewhat frustrating. I felt I had to take a huge guess to see that the way to pile blocks was periodic.
