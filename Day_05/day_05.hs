@@ -4,13 +4,12 @@ import Data.Char
 import Data.List
 
 parseInput :: String -> ([String], [[Int]])
-parseInput = parseLines . lines
+parseInput = parseLines . span (not . null) . lines
     where
         parseStacks = map head . takeWhile (not . null) . iterate (drop 4) . tail .
-                      map (dropWhile (== ' ')) . transpose . init . takeWhile (not . null)
-        parseActions = map (map read . filter (all isDigit) . words) . 
-                       tail . dropWhile (not . null)
-        parseLines l = (parseStacks l, parseActions l)
+                      map (dropWhile (== ' ')) . transpose . init
+        parseActions = map (map read . filter (all isDigit) . words) . tail
+        parseLines (stk, act) = (parseStacks stk, parseActions act)
 
 moveStacks :: Bool -> [String] -> [Int] -> [String]
 moveStacks rev stacks [n, src, dst] = [
