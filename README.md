@@ -45,3 +45,7 @@ This one was a bit harder, but once the parsing is done then it's not that hard.
 Is it weird that part 2 was easier than part 1 for me ?
 Anyway, tree traversals go brrrrrr (although I'd hoped to make my code clean
 which isn't the case right now :,()
+
+### [Day 08](./Day_08):
+Ah yes, my favorite time of the year: manipulating 2D grids in Haskell (/s)
+Well, it didn't go so bad, I definitely feel like I'm getting better at this every year!
