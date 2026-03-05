@@ -40,9 +40,9 @@ transitions = fromList $ concat [_14, _16, _23, _25, _26, _32, _34, _41, _43, _5
 
 simpleWrap :: Wrapper
 simpleWrap grid (r, c, d) = ((r', c', d), t)
-    where row           = filterWithKey (\(row, _) _ -> row == r) grid
-          col           = filterWithKey (\(_, col) _ -> col == c) grid
-          ((r', c'), t) =      if d == up     then findMax col
+    where row             = filterWithKey (\(row, _) _ -> row == r) grid
+          col             = filterWithKey (\(_, col) _ -> col == c) grid
+          ((r', c'), t)   =    if d == up     then findMax col
                           else if d == right  then findMin row
                           else if d == down   then findMin col
                           else                     findMax row
@@ -52,11 +52,10 @@ cubicWrap grid (r, c, d) = ((r', c', d'), grid ! (r', c'))
     where (r', c', d') = transitions ! (r, c, d)
 
 findNext :: Wrapper -> Grid -> Player -> (Player, Char)
-findNext wrapper grid (r, c, d) = res
-    where (dr, dc)      = [(0, 1), (1, 0), (0, -1), (-1, 0)] !! d
-          (r1, c1)      = (r + dr, c + dc)
-          res           = if (r1, c1) `member` grid then ((r1, c1, d), grid ! (r1, c1))
-                          else wrapper grid (r1, c1, d)
+findNext wrapper grid (r, c, d) | (r', c') `member` grid = ((r', c', d), grid ! (r', c'))
+                                | otherwise              = wrapper grid (r', c', d)
+                                where (dr, dc) = [(0, 1), (1, 0), (0, -1), (-1, 0)] !! d
+                                      (r', c') = (r + dr, c + dc)
 
 move :: Wrapper -> Grid -> Player -> Move -> Player
 move wrap grid (r, c, d) (Rotate "R") = (r, c, [0 .. 3] !! ((d + 1) `mod` 4))
