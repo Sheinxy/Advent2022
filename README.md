@@ -4,7 +4,7 @@ New year, same me
 Watch me code in Haskell for 25 days straight
 
 - [x] Day 1
-- [ ] Day 2
+- [x] Day 2
 - [ ] Day 3
 - [ ] Day 4
 - [ ] Day 5
@@ -36,3 +36,8 @@ Watch me code in Haskell for 25 days straight
 ### Day 1:
 Nothing quite remarkable, I wasn't going to use splitOn at first but I decided
 it was cleaner to use it (I am not sure it is standard though.)
+
+### Day 2:
+Because this is really simple to solve, I tried to do it in the most cumbersome
+and compact way possible. Basically, the idea is to put everything in a matrix
+and notice that there is a cycle to the possible scores.
