@@ -3,7 +3,7 @@ New year, same me
 
 Watch me code in Haskell for 25 days straight
 
-- [x] Day 1
+- [x] [Day 1](/Day_01)
 - [x] Day 2
 - [x] Day 3
 - [x] Day 4
