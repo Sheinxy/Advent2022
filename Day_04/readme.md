@@ -55,7 +55,7 @@ overlaps = not . null . foldl1 intersect
 These two are mostly self explanatory.
 
 The first one checks if one of the list is a subset of the other, so we simply compute the intersection
-of the list, and by a wonderful property we know that if $A \cap B = A \Rightarrow A \subset B$, so we only
+of the list, and by a wonderful property we know that if $$A \cap B = A \Rightarrow A \subset B$$, so we only
 need to check if this intersection is inside our list of intervals.
 
 The second one is even more self explanatory. We just check if the intersection is not null, nothing more than that.
