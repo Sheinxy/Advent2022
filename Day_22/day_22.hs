@@ -58,17 +58,17 @@ findNext wrapper grid (r, c, d) | (r', c') `member` grid = ((r', c', d), grid ! 
                                       (r', c') = (r + dr, c + dc)
 
 move :: Wrapper -> Grid -> Player -> Move -> Player
-move wrap grid (r, c, d) (Rotate "R") = (r, c, [0 .. 3] !! ((d + 1) `mod` 4))
-move wrap grid (r, c, d) (Rotate "L") = (r, c, [0 .. 3] !! ((d - 1) `mod` 4))
-move wrap grid (r, c, d) (Step    s ) = go (r, c, d) s
-                    where go player 0 = player
-                          go player n = let (player', t) = wrap grid player in
-                                        if t == '#' then player else go player' (n - 1)
+move wrapper grid (r, c, d) (Rotate "R") = (r, c, [0 .. 3] !! ((d + 1) `mod` 4))
+move wrapper grid (r, c, d) (Rotate "L") = (r, c, [0 .. 3] !! ((d - 1) `mod` 4))
+move wrapper grid (r, c, d) (Step    s ) = go (r, c, d) s
+                    where go player 0    = player
+                          go player n    = let (player', t) = findNext wrapper grid player in
+                                           if t == '#' then player else go player' (n - 1)
 
 main = do
     (grid, input) <- parseInput . lines <$> readFile "input"
     let (((r, c), _), d) = (findMin $ Data.Map.filter (/= '#') grid, right)
-    let (r1, c1, d1)     = foldl (move (findNext simpleWrap) grid) (r, c, d) input
-    let (r2, c2, d2)     = foldl (move (findNext  cubicWrap) grid) (r, c, d) input
+    let (r1, c1, d1)     = foldl (move simpleWrap grid) (r, c, d) input
+    let (r2, c2, d2)     = foldl (move  cubicWrap grid) (r, c, d) input
     print (1000 * r1 + 4 * c1 + d1)
     print (1000 * r2 + 4 * c2 + d2)
