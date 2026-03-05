@@ -83,4 +83,4 @@ Ok, this one was both really enjoyable but also somewhat frustrating. I felt I h
 At first I was scared because 3D geometry has never been my strong suit, but it turns out this one was a breather!
 
 ### [Day 19](./Day_19):
-That's like day 16 but worse, my runtime is about 1 minute and a half, there might be some simple ways to make it faster but I can't be bothers with that
+That's like day 16 but worse, my runtime is about 1 minute and a half, there might be some simple ways to make it faster but I can't be bothered with that
