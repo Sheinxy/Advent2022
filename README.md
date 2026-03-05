@@ -8,7 +8,7 @@ Watch me code in Haskell for 25 days straight
 - [x] Day 3
 - [x] Day 4
 - [x] Day 5
-- [ ] Day 6
+- [x] Day 6
 - [ ] Day 7
 - [ ] Day 8
 - [ ] Day 9
@@ -50,3 +50,6 @@ It is way too early for me to be awake, my solution is quite silly but it works.
 
 ### Day 5:
 The hardest part about this one was the parsing, and even that wasn't too hard
+
+### Day 6:
+Easiest one.
