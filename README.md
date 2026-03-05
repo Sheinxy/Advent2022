@@ -5,7 +5,7 @@ Watch me code in Haskell for 25 days straight
 
 | Day 	| Part 1 	| Part 2 	| Day 	| Part 1 	| Part 2 	| Day 	| Part 1 	| Part 2 	|
 |-----	|--------	|--------	|-----	|--------	|--------	|-----	|--------	|--------	|
-|  [Day 01](./Day_01)	|    ✅   	|    ✅   	|  [Day 10](./Day_10)	|    ✅     |    ✅    	|  [Day 19](./Day_19)	|        	|        	|
+|  [Day 01](./Day_01)	|    ✅   	|    ✅   	|  [Day 10](./Day_10)	|    ✅     |    ✅    	|  [Day 19](./Day_19)	|    ✅   	|    ✅   	|
 |  [Day 02](./Day_02)	|    ✅   	|    ✅   	|  [Day 11](./Day_11)	|    ✅    	|    ✅   	|  [Day 20](./Day_20)	|        	|        	|
 |  [Day 03](./Day_03)	|    ✅   	|    ✅   	|  [Day 12](./Day_12)	|    ✅   	|    ✅   	|  [Day 21](./Day_21)	|        	|        	|
 |  [Day 04](./Day_04)	|    ✅   	|    ✅   	|  [Day 13](./Day_13)	|    ✅   	|    ✅   	|  [Day 22](./Day_22)	|        	|        	|
@@ -81,3 +81,6 @@ Ok, this one was both really enjoyable but also somewhat frustrating. I felt I h
 
 ### [Day 18](./Day_18):
 At first I was scared because 3D geometry has never been my strong suit, but it turns out this one was a breather!
+
+### [Day 19](./Day_19):
+That's like day 16 but worse, my runtime is about 1 minute and a half, there might be some simple ways to make it faster but I can't be bothers with that
