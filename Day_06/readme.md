@@ -4,7 +4,7 @@ ARE YOU READY FOR THE EASIEST DAY EVER?
 
 For real, this one was so easy that it almost felt wrong.
 
-One small annecdote about my life for this day: remember how I said that on day 4
+One small anecdote about my life for this day: remember how I said that on day 4
 I woke up really early and all? Well it inspired me to try waking up naturally, without any alarm clock,
 and going to bed early by the same occasion. So here I was, at 9:30AM on a day without school.
 
