@@ -13,7 +13,7 @@ Watch me code in Haskell for 25 days straight
 |  [Day 06](./Day_06)	|    ✅   	|    ✅   	|  [Day 15](./Day_15)	|        	|        	|  [Day 24](./Day_24)	|        	|        	|
 |  [Day 07](./Day_07)	|    ✅   	|    ✅   	|  [Day 16](./Day_16)	|        	|        	|  [Day 25](./Day_25)	|        	|        	|
 |  [Day 08](./Day_08)	|    ✅   	|    ✅   	|  [Day 17](./Day_17)	|        	|        	|     	|        	|        	|
-|  [Day 09](./Day_09)	|        	|        	|  [Day 18](./Day_18)	|        	|        	|     	|        	|        	|
+|  [Day 09](./Day_09)	|    ✅   	|    ✅   	|  [Day 18](./Day_18)	|        	|        	|     	|        	|        	|
 
 ---
 
@@ -49,3 +49,7 @@ which isn't the case right now :,()
 ### [Day 08](./Day_08):
 Ah yes, my favorite time of the year: manipulating 2D grids in Haskell (/s)
 Well, it didn't go so bad, I definitely feel like I'm getting better at this every year!
+
+### [Day 09](./Day_09):
+I spent so much time on this simply because I didn't understand properly how
+moving works
