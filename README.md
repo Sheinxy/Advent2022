@@ -5,7 +5,7 @@ Watch me code in Haskell for 25 days straight
 
 | Day 	| Part 1 	| Part 2 	| Day 	| Part 1 	| Part 2 	| Day 	| Part 1 	| Part 2 	|
 |-----	|--------	|--------	|-----	|--------	|--------	|-----	|--------	|--------	|
-|  [Day 01](Day_01)	|    ✅   	|    ✅   	|  [Day 10](/Day_10)	|        	|        	|  [Day 19](/Day_19)	|        	|        	|
+|  [Day 01](./Day_01)	|    ✅   	|    ✅   	|  [Day 10](/Day_10)	|        	|        	|  [Day 19](/Day_19)	|        	|        	|
 |  [Day 02](/Day_02)	|    ✅   	|    ✅   	|  [Day 11](/Day_11)	|        	|        	|  [Day 20](/Day_20)	|        	|        	|
 |  [Day 03](/Day_03)	|    ✅   	|    ✅   	|  [Day 12](/Day_12)	|        	|        	|  [Day 21](/Day_21)	|        	|        	|
 |  [Day 04](/Day_04)	|    ✅   	|    ✅   	|  [Day 13](/Day_13)	|        	|        	|  [Day 22](/Day_22)	|        	|        	|
