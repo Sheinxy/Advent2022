@@ -2,15 +2,14 @@ module Main where
 
 import Data.Char
 import Data.List
-import Data.Ord
 
 data Packet = Number Int | List [Packet] deriving (Show, Read, Eq)
 
 instance Ord Packet where
     compare (Number x) (Number y) = compare  x                y
     compare (Number x)         y  = compare (List [Number x]) y
-    compare         x  (Number y) = compare  x  (List [Number y])
-    compare (List x) (List y)     = compare x y
+    compare         x  (Number y) = compare  x               (List [Number y])
+    compare (List x)   (List   y) = compare  x                y
 
 parsePacket :: String -> Packet
 parsePacket = read . go
