@@ -13,14 +13,15 @@ moveAround len num n = n'
           newPos k = if k == i then i'' else if k >= i'' && k < i then k + 1 else if k <= i'' && k > i then k - 1 else k
           n' = [(newPos k, l) | (k, l) <- num]
 
+solve :: [(Int, Int)] -> Int -> Int
+solve input iter = sum [snd $ grove !! ((zeroi + i) `mod` len) | i <- [1000, 2000, 3000]]
+    where len = length input
+          grove = sort . (!! iter) . iterate (flip (foldl (moveAround len)) [0 .. len - 1]) $ input
+          zeroi = fst . head . filter ((== 0) . snd) $ grove
+
 main = do
     input <- parseInput <$> readFile "input"
-    let len = length input
-    let grove = sort $ foldl (moveAround len) input [0 .. len - 1]
-    let zeroi = fst . head . filter ((== 0) . snd) $ grove
-    print $ sum [snd (grove !! ((zeroi + i) `mod` len)) | i <- [1000, 2000, 3000]]
     let decrypted = map (\(a, b) -> (a, b * 811589153)) input
-    let grove = sort . (!! 10) . iterate (flip (foldl (moveAround len)) [0 .. len - 1]) $ decrypted
-    let zeroi = fst . head . filter ((== 0) . snd) $ grove
-    print $ sum [snd (grove !! ((zeroi + i) `mod` len)) | i <- [1000, 2000, 3000]]
+    print $ solve input 1
+    print $ solve decrypted 10
 
