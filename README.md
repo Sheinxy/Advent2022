@@ -3,7 +3,7 @@ New year, same me
 
 Watch me code in Haskell for 25 days straight
 
-- [ ] Day 1
+- [x] Day 1
 - [ ] Day 2
 - [ ] Day 3
 - [ ] Day 4
@@ -32,3 +32,7 @@ Watch me code in Haskell for 25 days straight
 ---
 
 ## Personnal Feedback
+
+### Day 1:
+Nothing quite remarkable, I wasn't going to use splitOn at first but I decided
+it was cleaner to use it (I am not sure it is standard though.)
