@@ -5,7 +5,7 @@ Watch me code in Haskell for 25 days straight
 
 - [x] Day 1
 - [x] Day 2
-- [ ] Day 3
+- [x] Day 3
 - [ ] Day 4
 - [ ] Day 5
 - [ ] Day 6
@@ -41,3 +41,6 @@ it was cleaner to use it (I am not sure it is standard though.)
 Because this is really simple to solve, I tried to do it in the most cumbersome
 and compact way possible. Basically, the idea is to put everything in a matrix
 and notice that there is a cycle to the possible scores.
+
+### Day 3:
+Weirdly enough, I really liked this one. I am quite proud of my solution :D
