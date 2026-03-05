@@ -26,5 +26,5 @@ move knots (dx, dy) = foldl (\nk p -> nk ++ [newPos (last nk) p]) [(nhx, nhy)] x
 
 main = do
     input <- parseInput <$> readFile "input"
-    print $ length . nub . map (!! 1) . scanl move [(0, 0), (0, 0)] $ input
-    print $ length . nub . map (!! 9) . scanl move (replicate 10 (0, 0)) $ input
+    print $ length . nub . map last . scanl move [(0, 0), (0, 0)] $ input
+    print $ length . nub . map last . scanl move (replicate 10 (0, 0)) $ input
