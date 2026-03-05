@@ -14,7 +14,7 @@ nextStates :: Blueprint -> (Robots, Resources) -> [(Robots, Resources)]
 nextStates bp (rb, rs) = reverse nextStates'
     where canBuildGeode = all (>= 0) $ zipWith (-) rs (last bp)
           canBuildObsi  = all (>= 0) $ zipWith (-) rs (bp !! 2)
-          maxClay       = maximum $ map head $ take 2 bp
+          maxClay       = maximum $ map head bp
           indexedCosts  = zip [0 .. ] bp
           kDelta    i j = if i == j then 1 else 0
           deltaState    = [([kDelta i j | j <- [0 .. 3]], zipWith (-) rs costs) | (i, costs) <- indexedCosts]
