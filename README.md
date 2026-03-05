@@ -7,7 +7,7 @@ Watch me code in Haskell for 25 days straight
 |-----	|--------	|--------	|-----	|--------	|--------	|-----	|--------	|--------	|
 |  [Day 01](./Day_01)	|    ✅   	|    ✅   	|  [Day 10](./Day_10)	|    ✅     |    ✅    	|  [Day 19](./Day_19)	|    ✅   	|    ✅   	|
 |  [Day 02](./Day_02)	|    ✅   	|    ✅   	|  [Day 11](./Day_11)	|    ✅    	|    ✅   	|  [Day 20](./Day_20)	|    ✅   	|    ✅   	|
-|  [Day 03](./Day_03)	|    ✅   	|    ✅   	|  [Day 12](./Day_12)	|    ✅   	|    ✅   	|  [Day 21](./Day_21)	|        	|        	|
+|  [Day 03](./Day_03)	|    ✅   	|    ✅   	|  [Day 12](./Day_12)	|    ✅   	|    ✅   	|  [Day 21](./Day_21)	|    ✅   	|    ✅   	|
 |  [Day 04](./Day_04)	|    ✅   	|    ✅   	|  [Day 13](./Day_13)	|    ✅   	|    ✅   	|  [Day 22](./Day_22)	|        	|        	|
 |  [Day 05](./Day_05)	|    ✅   	|    ✅   	|  [Day 14](./Day_14)	|    ✅   	|    ✅   	|  [Day 23](./Day_23)	|        	|        	|
 |  [Day 06](./Day_06)	|    ✅   	|    ✅   	|  [Day 15](./Day_15)	|    ✅   	|    ✅   	|  [Day 24](./Day_24)	|        	|        	|
@@ -87,3 +87,6 @@ That's like day 16 but worse, my runtime is about 1 minute and a half, there mig
 
 ### [Day 20](./Day_20):
 This one was easy, but I could do better (right now I have a runtime of 1 minute, which is not really fancy for such a simple problem), I might come back to it later
+
+### [Day 21](./Day_21):
+Another easy one, my solution is not the most optimised but it works well enough (and fast enough, 0.03s!) 
