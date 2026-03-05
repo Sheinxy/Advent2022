@@ -3,7 +3,7 @@ module Main where
 import Data.List
 
 parseInput :: String -> [(Int, Int)]
-parseInput = concat . map ((\[d, n] -> replicate (read n) $ getDirection d). words) . lines
+parseInput = concatMap ((\[d, n] -> replicate (read n) $ getDirection d). words) . lines
     where getDirection "U" = ( 0,  1)
           getDirection "D" = ( 0, -1)
           getDirection "L" = (-1,  0)
